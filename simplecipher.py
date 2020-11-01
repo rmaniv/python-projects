@@ -1,6 +1,6 @@
 print("")
 
-print("Welcome to SuperSimpleCipher v1.0 by Vinamr Sachdeva.")
+print("Welcome to SimpleCipher v1.0 by Vinamr Sachdeva.")
 
 print("")
 
