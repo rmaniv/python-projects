@@ -1,6 +1,3 @@
-print("")
-
-print("Welcome to SimpleCipher v1.0 by Vinamr Sachdeva.")
 
 print("")
 

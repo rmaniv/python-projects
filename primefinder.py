@@ -1,4 +1,6 @@
 
+print("")
+
 n = int(input())
 p = [2]
 d = 0
