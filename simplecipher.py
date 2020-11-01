@@ -16,6 +16,7 @@ def decode(code):
         i = validlist.index(code[char]) - 2
         result += validlist[i]
     print(result)
+
 option = input("Select (Encode/Decode): ")
 
 print("")
