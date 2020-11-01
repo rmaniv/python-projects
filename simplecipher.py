@@ -16,18 +16,17 @@ def decode(code):
         i = validlist.index(code[char]) - 2
         result += validlist[i]
     print(result)
-
-function = input("Select (Encode/Decode): ")
+option = input("Select (Encode/Decode): ")
 
 print("")
 
 print("Only lower case alphabets and spaces are allowed.")
 
 while True:
-  if function.lower() == "encode":
+  if option.lower() == "encode":
     word = input("Enter text to be encoded: ")
     break
-  elif function.lower() == "decode":
+  elif option.lower() == "decode":
     code = input("Enter text to be decoded: ")
     break
   else:
@@ -36,9 +35,9 @@ while True:
 
 print("")
 
-if function.lower() == "encode":
+if option.lower() == "encode":
     encode(word)
-elif function.lower() == "decode":
+elif option.lower() == "decode":
     decode(code)
 else:
     print("Invalid input")
