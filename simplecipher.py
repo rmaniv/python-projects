@@ -44,4 +44,4 @@ else:
 
 print("")
 
-x = input("Press any key to exit...")
+close = input("Press any key to exit...")
